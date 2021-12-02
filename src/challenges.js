@@ -60,21 +60,97 @@ function highestCount(array) {
 array = []
 
 // Desafio 7
-function catAndMouse() {
-  // seu código aqui
+function catAndMouse(mouse, cat1, cat2) {
+  let cat1Pos = Math.abs(mouse - cat1)
+  let cat2Pos = Math.abs(mouse - cat2)
+
+  if (cat1Pos < cat2Pos) {
+      return 'cat1'
+  }
+  else if (cat1Pos === cat2Pos) {
+      return 'os gatos trombam e o rato foge'
+  }
+  else {
+      return 'cat2'
+  }
 }
 
 // Desafio 8
-function fizzBuzz() {
-  // seu código aqui
+function fizzBuzz(array) {
+  let strings = []
+  for (i in array) {
+      if (array[i]%5 === 0 && array[i]%3 === 0) {
+          strings.push('fizzBuzz')
+      }
+      else if (array[i]%5 === 0) {
+          strings.push('buzz')
+      }
+      else if (array[i]%3 === 0) {
+          strings.push('fizz')
+      }
+      else {
+          strings.push('bug!')
+      }
+  
+  }
+  return strings
 }
+array = []
 
 // Desafio 9
-function encode() {
-  // seu código aqui
+function encode(string) {
+  let array = []
+  for (i in string) {
+      if (string[i] === 'a') {
+          array.push('1')
+      }
+      else if (string[i] === 'e') {
+          array.push('2')
+      }
+      else if (string[i] === 'i') {
+          array.push('3')
+      }
+      else if (string[i] === 'o') {
+          array.push('4')
+      }
+      else if (string[i] === 'u') {
+          array.push('5')
+      }
+      else {
+          array.push(string[i])
+      }
+      
+  }
+  
+return array.join('')
 }
-function decode() {
-  // seu código aqui
+
+
+function decode(string) {
+  let array = []
+  for (i in string) {
+      if (string[i] === '1') {
+          array.push('a')
+      }
+      else if (string[i] === '2') {
+          array.push('e')
+      }
+      else if (string[i] === '3') {
+          array.push('i')
+      }
+      else if (string[i] === '4') {
+          array.push('o')
+      }
+      else if (string[i] === '5') {
+          array.push('u')
+      }
+      else {
+          array.push(string[i])
+      }
+      
+  }
+  
+return array.join('')
 }
 
 module.exports = {
