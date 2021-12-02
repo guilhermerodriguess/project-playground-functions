@@ -1,18 +1,29 @@
 // Desafio 1
-function compareTrue() {
-  // seu código aqui.
+function compareTrue(p1, p2) {
+  if (p1 === true && p2 === true) {
+    return true
+  }
+  else {
+    return false
+  }
 }
+p1 = true
+p2 = true
 
 // Desafio 2
-function calcArea() {
-  // seu código aqui
+function calcArea(base, height) {
+  let result = (base*height)/2
+  return result
 }
+let base = 10
+let height = 50
 
 // Desafio 3
-function splitSentence() {
-  // seu código aqui
+function splitSentence(string) {
+  let array = []
+  return string.split(' ')
 }
-
+string = 'cavalo doido'
 // Desafio 4
 function concatName() {
   // seu código aqui
