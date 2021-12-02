@@ -23,21 +23,41 @@ function splitSentence(string) {
   let array = []
   return string.split(' ')
 }
-string = 'cavalo doido'
+string = ''
+
 // Desafio 4
-function concatName() {
-  // seu código aqui
+function concatName(array) {
+  let result = array[array.length - 1]+', '+array[0]
+  return result
 }
+array = []
 
 // Desafio 5
-function footballPoints() {
-  // seu código aqui
+function footballPoints(wins, ties) {
+  result = (wins*3) + ties
+  return result
 }
+wins = 0
+ties = 0
 
 // Desafio 6
-function highestCount() {
-  // seu código aqui
+function highestCount(array) {
+  let big = 0
+  let result = 0
+  for (i in array) {
+      if (array[i] > big || big === 0) {
+          big = array[i]
+      }
+  }
+  for (i in array) {
+      if (big === array[i]) {
+          result += 1
+      }
+  }
+  return result
 }
+
+array = []
 
 // Desafio 7
 function catAndMouse() {
