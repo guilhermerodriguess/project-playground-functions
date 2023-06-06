@@ -56,6 +56,3 @@ Thanks for exploring the Playground Functions project! I hope it will be useful 
 If you have any questions, suggestions or problems with the project, don't hesitate to open an issue or get in touch. Your feedback is always welcome!
 
 Have fun exploring and continuing to hone your web development skills!
-
-## License
-This project is licensed under an MIT license.
