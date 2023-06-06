@@ -1,61 +1,61 @@
 # Playground Functions
 
-O projeto Playground Functions consiste em uma coleção de funções desenvolvidas para praticar e aprimorar habilidades de programação em JavaScript. Essas funções podem ser utilizadas como uma "playground" para testar diferentes conceitos e lógicas de programação.
+The Playground Functions project consists of a collection of functions designed to practice and improve JavaScript programming skills. These functions can be used as a "playground" to test different concepts and programming logics.
 
-## Funções disponíveis
+## Functions available
 
-Neste projeto, você encontrará as seguintes funções:
+In this project, you will find the following functions:
 
-- `transformUpperCase(str)`: Essa função recebe uma string como parâmetro e retorna a mesma string com todas as letras em maiúsculo.
+- `transformUpperCase(str)`: This function takes a string as a parameter and returns the same string with all letters in uppercase.
 
-- `reverseString(str)`: Essa função recebe uma string como parâmetro e retorna a mesma string invertida.
+- `reverseString(str)`: This function takes a string as a parameter and returns the same string inverted.
 
-- `splitString(str)`: Essa função recebe uma string como parâmetro e retorna um array contendo as palavras separadas por espaço.
+- `splitString(str)`: This function takes a string as a parameter and returns an array containing the words separated by a space.
 
-E outras funções adicionais.
+And other additional functions.
 
-## Instruções de Instalação
+## Installation Instructions
 
-Para utilizar as funções do projeto Playground Functions, siga as etapas abaixo:
+To use the functions from the Playground Functions project, follow the steps below:
 
-1. Clone o repositório usando o seguinte comando no seu terminal:
+1. Clone the repository using the following command in your terminal:
 
    ```
    git clone git@github.com:guilhermerodriguess/project-playground-functions.git
    ```
 
-2. Navegue até o diretório do projeto:
+2. Navigate to the project directory:
 
    ```
    cd project-playground-functions
    ```
 
-3. Não é necessário instalar dependências para este projeto.
+3. It is not necessary to install dependencies for this project.
 
-Agora você está pronto para explorar e utilizar as funções disponíveis no projeto.
+You are now ready to explore and use the functions available in the project.
 
-## Exemplos de Uso
+## Examples of Usage
 
-Aqui estão alguns exemplos de uso das funções disponíveis:
+Here are some examples of using the available functions:
 
 ```javascript
 const result1 = transformUpperCase('hello world');
-console.log(result1); // Saída: HELLO WORLD
+console.log(result1); // Output: HELLO WORLD
 
 const result2 = reverseString('hello');
-console.log(result2); // Saída: olleh
+console.log(result2); // Output: olleh
 
 const result3 = splitString('Hello world');
-console.log(result3); // Saída: ['Hello', 'world']
+console.log(result3); // Output: ['Hello', 'world']
 ```
 
-## Considerações Finais
+## Final considerations
 
-Obrigado por explorar o projeto Playground Functions! Espero que ele seja útil para você em seu aprendizado e prática de desenvolvimento web. Sinta-se à vontade para explorar o código, fazer modificações e adaptá-lo às suas necessidades.
+Thanks for exploring the Playground Functions project! I hope it will be useful for you in your web development learning and practice. Feel free to explore the code, make modifications and adapt it to your needs.
 
-Se você tiver alguma dúvida, sugestão ou problema com o projeto, não hesite em abrir uma issue ou entrar em contato. Seu feedback é sempre bem-vindo!
+If you have any questions, suggestions or problems with the project, don't hesitate to open an issue or get in touch. Your feedback is always welcome!
 
-Divirta-se explorando e continuando a aprimorar suas habilidades em desenvolvimento web!
+Have fun exploring and continuing to hone your web development skills!
 
-## Licença
-Este projeto está licenciado sob a MIT License.
+## License
+This project is licensed under an MIT license.
